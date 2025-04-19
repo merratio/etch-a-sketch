@@ -37,8 +37,8 @@ div{
     display: flex;
     border:solid;
     border-color: #000080;
-    width: 800px;
-    height: 800px;
+    width: auto;
+    height: auto;
     margin: auto;
     flex-direction: column;
     

@@ -26,6 +26,13 @@ divs(16, 16);
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click", ()=>{
-    container.innerHTML = "";
-    divs(16,16);
+    var value = prompt("What would you like the new dimensions to be?");
+    if(value <= 100){
+        container.innerHTML = "";
+
+        divs(value, value);
+    }else{
+        alert("Value should not be more than 100");
+    }
+    
 });
